@@ -1,0 +1,6 @@
+.*
+nbproject
+/dist
+/horde-ajax-client.*
+/lib
+/node_modules
