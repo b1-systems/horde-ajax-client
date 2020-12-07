@@ -3,7 +3,7 @@
     "license": "MPL-2.0",
     "description": "'horde-ajax-client' provides an 'fetch' based HTTP client implementation for Horde.",
     "homepage": "https://www.b1-systems.de",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "private": true,
     "repository": {
         "type": "git",
@@ -22,7 +22,7 @@
         "prepare": "npm run build-lib"
     },
     "dependencies": {
-        "djt-http-client": "git://github.com/dNG-git/djt_http_client.git#semver:^1.1.0"
+        "@dng-git/djt-http-client": "git://github.com/dNG-git/djt_http_client.git#semver:^1.1.0"
     },
     "devDependencies": {
         "eslint": "^7.7.0",

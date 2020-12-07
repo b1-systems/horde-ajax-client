@@ -11,7 +11,15 @@
  * @license Mozilla Public License, v. 2.0
  */
 
-import { HttpClientQueryParams, HttpClientRequestArgs, HttpClientRequestData, HttpClientResponse, HttpJsonClient, MapObject } from 'djt-http-client';
+import {
+    HttpClientQueryParams,
+    HttpClientRequestArgs,
+    HttpClientRequestData,
+    HttpClientResponse,
+    HttpJsonClient,
+    MapObject
+} from '@dng-git/djt-http-client';
+
 import { HordeAjaxClientError } from './horde-ajax-client-error';
 import { HordeAjaxClientResponseMessages } from './horde-ajax-client-interfaces';
 
